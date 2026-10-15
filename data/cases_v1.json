@@ -1,0 +1,18 @@
+{
+  "schema_version": "1",
+  "cases": [
+    {"id": "low_69", "value": 69, "unit": "mg/dL", "expected": "urgent"},
+    {"id": "edge_70", "value": 70, "unit": "mg/dL", "expected": "normal"},
+    {"id": "edge_300", "value": 300, "unit": "mg/dL", "expected": "normal"},
+    {"id": "high_301", "value": 301, "unit": "mg/dL", "expected": "urgent"},
+    {"id": "high_310", "value": 310, "unit": "mg/dL", "expected": "urgent"},
+    {"id": "mmol_low", "value": 3.8, "unit": "mmol/L", "expected": "urgent"},
+    {"id": "mmol_ok", "value": 5.5, "unit": "mmol/L", "expected": "normal"},
+    {"id": "mmol_high", "value": 16.7, "unit": "mmol/L", "expected": "urgent"},
+    {"id": "negative", "value": -5, "unit": "mg/dL", "expected": "invalid"},
+    {"id": "zero", "value": 0, "unit": "mg/dL", "expected": "invalid"},
+    {"id": "text", "value": "abc", "unit": "mg/dL", "expected": "invalid"},
+    {"id": "missing", "value": null, "unit": "mg/dL", "expected": "invalid"},
+    {"id": "bad_unit", "value": 100, "unit": "xyz", "expected": "invalid"}
+  ]
+}
