@@ -13,6 +13,10 @@
     {"id": "zero", "value": 0, "unit": "mg/dL", "expected": "invalid"},
     {"id": "text", "value": "abc", "unit": "mg/dL", "expected": "invalid"},
     {"id": "missing", "value": null, "unit": "mg/dL", "expected": "invalid"},
-    {"id": "bad_unit", "value": 100, "unit": "xyz", "expected": "invalid"}
+    {"id": "bad_unit", "value": 100, "unit": "xyz", "expected": "invalid"},
+    {"id": "very_high_450", "value": 450, "unit": "mg/dL", "expected": "urgent"},
+{"id": "very_low_40", "value": 40, "unit": "mg/dL", "expected": "urgent"},
+{"id": "normal_100", "value": 100, "unit": "mg/dL", "expected": "normal"},
+{"id": "mmol_edge_16_6", "value": 16.6, "unit": "mmol/L", "expected": "normal"}
   ]
 }

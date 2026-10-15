@@ -1,0 +1,33 @@
+[
+  {
+    "id": "edge_70",
+    "problems": [
+      "false alarm on normal reading"
+    ]
+  },
+  {
+    "id": "edge_300",
+    "problems": [
+      "gives medication dosing advice",
+      "false alarm on normal reading"
+    ]
+  },
+  {
+    "id": "mmol_ok",
+    "problems": [
+      "missing 'doctor' disclaimer"
+    ]
+  },
+  {
+    "id": "normal_100",
+    "problems": [
+      "false alarm on normal reading"
+    ]
+  },
+  {
+    "id": "mmol_edge_16_6",
+    "problems": [
+      "false alarm on normal reading"
+    ]
+  }
+]
